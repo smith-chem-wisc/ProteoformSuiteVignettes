@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-16"?>
+<proteoform_suite documentVersion="0.01" id="2019-04-12-16-53-27">
+  <setting field_type="System.Boolean" field_name="neucode_labeled" field_value="False" />
+  <setting field_type="System.Double" field_name="raw_component_mass_tolerance" field_value="0" />
+  <setting field_type="System.Double" field_name="min_likelihood_ratio" field_value="0" />
+  <setting field_type="System.Double" field_name="max_fit" field_value="0.2" />
+  <setting field_type="System.Int32" field_name="min_assumed_cs" field_value="5" />
+  <setting field_type="System.Int32" field_name="max_assumed_cs" field_value="50" />
+  <setting field_type="System.Decimal" field_name="max_intensity_ratio" field_value="6" />
+  <setting field_type="System.Decimal" field_name="min_intensity_ratio" field_value="1.4" />
+  <setting field_type="System.Decimal" field_name="max_lysine_ct" field_value="26.2" />
+  <setting field_type="System.Decimal" field_name="min_lysine_ct" field_value="1.5" />
+  <setting field_type="System.Double" field_name="min_score_td" field_value="3" />
+  <setting field_type="System.Boolean" field_name="biomarker" field_value="True" />
+  <setting field_type="System.Boolean" field_name="tight_abs_mass" field_value="True" />
+  <setting field_type="System.Double" field_name="td_retention_time_tolerance" field_value="5" />
+  <setting field_type="System.String" field_name="decoy_community_name_prefix" field_value="Decoy_Proteoform_Community_" />
+  <setting field_type="System.Boolean" field_name="validate_proteoforms" field_value="True" />
+  <setting field_type="System.Double" field_name="mass_tolerance" field_value="5" />
+  <setting field_type="System.Double" field_name="retention_time_tolerance" field_value="1.5" />
+  <setting field_type="System.Int32" field_name="maximum_missed_monos" field_value="3" />
+  <setting field_type="System.Int32" field_name="maximum_missed_lysines" field_value="2" />
+  <setting field_type="System.Int32" field_name="min_num_CS" field_value="1" />
+  <setting field_type="System.String" field_name="agg_observation_requirement" field_value="Minimum Bioreps with Observations From Any Single Condition" />
+  <setting field_type="System.Int32" field_name="agg_minBiorepsWithObservations" field_value="1" />
+  <setting field_type="System.Boolean" field_name="add_td_proteoforms" field_value="True" />
+  <setting field_type="System.Boolean" field_name="methionine_oxidation" field_value="False" />
+  <setting field_type="System.Boolean" field_name="carbamidomethylation" field_value="False" />
+  <setting field_type="System.Boolean" field_name="methionine_cleavage" field_value="True" />
+  <setting field_type="System.Boolean" field_name="use_average_mass" field_value="False" />
+  <setting field_type="System.Int32" field_name="max_ptms" field_value="2" />
+  <setting field_type="System.Int32" field_name="decoy_databases" field_value="10" />
+  <setting field_type="System.Int32" field_name="min_peptide_length" field_value="7" />
+  <setting field_type="System.Double" field_name="ptmset_mass_tolerance" field_value="1E-05" />
+  <setting field_type="System.Boolean" field_name="combine_identical_sequences" field_value="True" />
+  <setting field_type="System.Boolean" field_name="combine_theoretical_proteoforms_byMass" field_value="False" />
+  <setting field_type="System.Int32" field_name="mod_rank_sum_threshold" field_value="28" />
+  <setting field_type="System.Int32" field_name="mod_rank_first_quartile" field_value="11" />
+  <setting field_type="System.Int32" field_name="mod_rank_second_quartile" field_value="21" />
+  <setting field_type="System.Int32" field_name="mod_rank_third_quartile" field_value="25" />
+  <setting field_type="System.Boolean" field_name="useRandomSeed_decoys" field_value="True" />
+  <setting field_type="System.Int32" field_name="randomSeed_decoys" field_value="1" />
+  <setting field_type="System.Boolean" field_name="ee_accept_peaks_based_on_rank" field_value="False" />
+  <setting field_type="System.Boolean" field_name="et_use_notch" field_value="False" />
+  <setting field_type="System.Boolean" field_name="et_notch_ppm" field_value="True" />
+  <setting field_type="System.Boolean" field_name="et_bestETRelationOnly" field_value="False" />
+  <setting field_type="System.Double" field_name="notch_tolerance_et" field_value="1" />
+  <setting field_type="System.Double" field_name="ee_max_mass_difference" field_value="300" />
+  <setting field_type="System.Double" field_name="ee_max_RetentionTime_difference" field_value="2.5" />
+  <setting field_type="System.Double" field_name="et_low_mass_difference" field_value="-300" />
+  <setting field_type="System.Double" field_name="et_high_mass_difference" field_value="350" />
+  <setting field_type="System.Double" field_name="peak_width_base_et" field_value="0.03" />
+  <setting field_type="System.Double" field_name="peak_width_base_ee" field_value="0.03" />
+  <setting field_type="System.Double" field_name="min_peak_count_et" field_value="50" />
+  <setting field_type="System.Double" field_name="min_peak_count_ee" field_value="50" />
+  <setting field_type="System.Int32" field_name="relation_group_centering_iterations" field_value="2" />
+  <setting field_type="System.Boolean" field_name="count_adducts_as_identifications" field_value="False" />
+  <setting field_type="System.String" field_name="family_build_folder_path" field_value="C:\Users\lschaffer2\Desktop" />
+  <setting field_type="System.Int32" field_name="deltaM_edge_display_rounding" field_value="2" />
+  <setting field_type="System.Boolean" field_name="only_assign_common_or_known_mods" field_value="True" />
+  <setting field_type="System.Int32" field_name="countOfBioRepsInOneCondition" field_value="0" />
+  <setting field_type="System.Int32" field_name="condition_count" field_value="0" />
+  <setting field_type="System.String" field_name="numerator_condition" field_value="" />
+  <setting field_type="System.String" field_name="denominator_condition" field_value="" />
+  <setting field_type="System.String" field_name="induced_condition" field_value="" />
+  <setting field_type="System.String" field_name="observation_requirement" field_value="Minimum Bioreps with Observations From Any Single Condition" />
+  <setting field_type="System.Int32" field_name="minBiorepsWithObservations" field_value="0" />
+  <setting field_type="System.Boolean" field_name="significance_by_log2FC" field_value="False" />
+  <setting field_type="System.Boolean" field_name="significance_by_permutation" field_value="True" />
+  <setting field_type="System.Decimal" field_name="backgroundShift" field_value="-1.8" />
+  <setting field_type="System.Decimal" field_name="backgroundWidth" field_value="0.5" />
+  <setting field_type="System.Boolean" field_name="useRandomSeed_quant" field_value="False" />
+  <setting field_type="System.Int32" field_name="randomSeed_quant" field_value="1" />
+  <setting field_type="System.Decimal" field_name="offsetTestStatistics" field_value="1" />
+  <setting field_type="System.Decimal" field_name="sKnot_minFoldChange" field_value="1" />
+  <setting field_type="System.Boolean" field_name="useFoldChangeCutoff" field_value="False" />
+  <setting field_type="System.Decimal" field_name="foldChangeCutoff" field_value="1.5" />
+  <setting field_type="System.String" field_name="fold_change_conjunction" field_value="AND" />
+  <setting field_type="System.Int32" field_name="minBiorepsWithFoldChange" field_value="-1" />
+  <setting field_type="System.Boolean" field_name="useAveragePermutationFoldChange" field_value="True" />
+  <setting field_type="System.Boolean" field_name="useBiorepPermutationFoldChange" field_value="False" />
+  <setting field_type="System.Boolean" field_name="useLocalFdrCutoff" field_value="False" />
+  <setting field_type="System.Decimal" field_name="localFdrCutoff" field_value="0.05" />
+  <setting field_type="System.Boolean" field_name="calibrate_raw_files" field_value="False" />
+  <setting field_type="System.Boolean" field_name="calibrate_td_files" field_value="False" />
+  <setting field_type="System.String" field_name="results_folder" field_value="E:\sSECProteoforms\190403_new_under50" />
+  <setting field_type="System.Double" field_name="MONOISOTOPIC_UNIT_MASS" field_value="1.0023" />
+  <setting field_type="System.Double" field_name="NEUCODE_LYSINE_MASS_SHIFT" field_value="0.036015372" />
+  <setting field_type="System.Double" field_name="PROTON_MASS" field_value="1.007276474" />
+  <setting field_type="System.Boolean" field_name="gene_centric_families" field_value="True" />
+  <setting field_type="System.String" field_name="preferred_gene_label" field_value="Ordered Locus, e.g. YLR113W" />
+  <action action="shift ExperimentalTheoretical peak with delta-mass -1.00658580201477 by 1" />
+  <action action="shift ExperimentalTheoretical peak with delta-mass 0.991917340738967 by -1" />
+  <action action="shift ExperimentalTheoretical peak with delta-mass 130.040331001936 by 1" />
+  <action action="shift ExperimentalTheoretical peak with delta-mass 132.053628115349 by -1" />
+  <action action="unaccept ExperimentalTheoretical peak with delta-mass 1.98408319838018" />
+  <action action="unaccept ExperimentalExperimental peak with delta-mass 16.9973128553225" />
+  <action action="unaccept ExperimentalExperimental peak with delta-mass 20.9865010233944" />
+  <action action="unaccept ExperimentalExperimental peak with delta-mass 19.9905222984694" />
+</proteoform_suite>
